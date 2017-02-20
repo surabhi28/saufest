@@ -1,11 +1,11 @@
  
 <?php 
-$con = mysql_connect("localhost","root","surbhi28") or die();
+$con = mysql_connect("localhost","root","") or die();
 mysql_select_db("saufest",$con) or die();
 
 ?>
 <div class="dropdown">
-     <label for="Enrollment No.">Member Name:</label>
+     <label for="Enrollment No.">Participant Name : &emsp;</label>
   <select class="btn dropdown-toggle" data-toggle="dropdown" name="name">
   <option selected disabled>Select Name</option>  
  

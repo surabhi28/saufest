@@ -81,7 +81,8 @@ mysql_select_db("saufest",$con) or die();
     
  
   </br>
-  <button type="submit" name ="submit" class="btn btn-submit" style="background-color:#143E57;  color:white;">Download ID Card</button>
+  <button type="submit" name ="submit" class="btn btn-submit" style="background-color:#143E57;  color:white;">Download ID Card</button> &emsp;
+  <button type="submit" name ="submitall" class="btn btn-submit" style="background-color:#143E57;  color:white;">Download All ID Card</button>
 <br/>
 <br/>
 </form>
